@@ -1,7 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/toolbar"
@@ -9,10 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:theme="@style/Kit.Toolbar.Primary"
-
-
         >
-
+        <com.scopely.fontain.views.FontTextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            tools:text="Title" />
     </android.support.v7.widget.Toolbar>
 
 

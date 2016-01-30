@@ -3,9 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Kit.iml" filepath="$PROJECT_DIR$/Kit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/kit/kit.iml" filepath="$PROJECT_DIR$/kit/kit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rxjavatextlib/rxjavatextlib.iml" filepath="$PROJECT_DIR$/rxjavatextlib/rxjavatextlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kit-sample/kit-sample.iml" filepath="$PROJECT_DIR$/kit-sample/kit-sample.iml" />
     </modules>
   </component>
 </project>

@@ -4,10 +4,10 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.davidhan.kit.R;
+import com.davidhan.kit.boiled.BoiledLinearLayout;
 
 /**
  * name: ActionItem
@@ -16,7 +16,7 @@ import com.davidhan.kit.R;
  * author: David
  * Copyright (c) 2015 David Han
  */
-public class ActionItem extends LinearLayout {
+public class ActionItem extends BoiledLinearLayout {
     TextView mTitle;
     TextView mValue;
     ImageView mChevron;
@@ -58,7 +58,7 @@ public class ActionItem extends LinearLayout {
         }
     }
 
-    private void init() {
+    protected void init() {
 
         mTitle = (TextView) findViewById(R.id.title);
         mValue = (TextView) findViewById(R.id.value);
@@ -66,7 +66,7 @@ public class ActionItem extends LinearLayout {
     }
 
     private void inflateLayout() {
-        inflate(getContext(), R.layout.action_item, this);
+
     }
 
     public void showChevron(boolean show) {

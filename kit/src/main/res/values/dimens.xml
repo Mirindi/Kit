@@ -26,10 +26,10 @@
     <dimen name="icon_xs">12dp</dimen>
     <dimen name="icon_xxs">8dp</dimen>
     <dimen name="icon_md">24dp</dimen>
-    <dimen name="icon_padding_sm">4dp</dimen>
-    <dimen name="icon_padding_md">8dp</dimen>
-    <dimen name="icon_padding_reg">12dp</dimen>
-    <dimen name="icon_padding_lg">16dp</dimen>
+    <dimen name="padding_sm">4dp</dimen>
+    <dimen name="padding_md">8dp</dimen>
+    <dimen name="padding_reg">12dp</dimen>
+    <dimen name="padding_lg">16dp</dimen>
 
     <!-- Buttons -->
     <dimen name="text_button_size">48dp</dimen>

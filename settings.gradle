@@ -1,1 +1,1 @@
-include ':app', ':rxjavatextlib', ':kit'
+include ':kit-sample', ':kit'

@@ -6,6 +6,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.davidhan.kit.R;
 
@@ -17,6 +18,7 @@ import com.davidhan.kit.R;
  */
 public class ToolbarActivity extends AppCompatActivity {
     protected Toolbar toolbar;
+    protected TextView toolbarTitle;
     protected ViewGroup mActivityContentHolder;
     protected ViewGroup mActivityContent;
 
@@ -27,11 +29,16 @@ public class ToolbarActivity extends AppCompatActivity {
 
         setToolbarLayout();
         toolbar = (Toolbar) super.findViewById(R.id.toolbar);
+        toolbarTitle = (TextView) super.findViewById(R.id.toolbar_title);
         mActivityContentHolder = (ViewGroup) super.findViewById(R.id.activity_content_holder);
         setSupportActionBar(toolbar);
 
     }
 
+    @Override
+    public void setTitle(int titleId) {
+        toolbarTitle.setText(titleId);
+    }
     protected void setToolbarLayout() {
         setContentView(R.layout.toolbar_activity);
     }
@@ -70,4 +77,8 @@ public class ToolbarActivity extends AppCompatActivity {
         return mActivityContent.findViewById(id);
     }
 
+    @Override
+    public void setTitle(CharSequence title) {
+        super.setTitle(title);
+    }
 }

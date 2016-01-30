@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:paddingLeft="@dimen/md_spacing">
 
-    <TextView
+    <com.scopely.fontain.views.FontTextView
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
