@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#8BC34A</color>
+    <color name="color_primary_light">#f1f8e9</color>
+    <color name="color_primary_dark">#689F38</color>
+    <color name="primary_pressed">#7cb342</color>
+    <color name="primary_text">#245312</color>
+    <color name="primary_text_disabled">#689f38</color>
+    <color name="primary_stroke">@color/color_primary</color>
+    <color name="primary_disabled">@color/color_primary_light</color>
+
+    <color name="color_general">@color/grey_500</color>
+    <color name="color_general_light">@color/grey_400</color>
+    <color name="color_general_dark">@color/grey_600</color>
+    <color name="general_pressed">@color/color_general_dark</color>
+    <color name="general_text">@color/grey_900</color>
+    <color name="general_text_disabled">@color/grey_600</color>
+    <color name="general_stroke">@color/color_general_dark</color>
+    <color name="general_disabled">@color/color_general_light</color>
+
+    <color name="background_general">@color/grey_100</color>
+    <color name="background_general_light">@color/grey_200</color>
+    <color name="background_general_dark">@color/grey_200</color>
+    <color name="background_general_pressed">@color/background_general_dark</color>
+
+    <color name="divider">@color/grey_400</color>
+    <color name="body_text">@color/grey_900</color>
+    <color name="background_text">@color/grey_500</color>
+    <color name="toolbar_bg">@color/grey_500</color>
+    <color name="general_toolbar">@color/color_general_dark</color>
+    <color name="general_toolbar_dark">@color/color_general_dark</color>
+
+    <!-- Grey -->
+    <color name="clear">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+    <!-- Grey -->
+</resources>

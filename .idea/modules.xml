@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Kit.iml" filepath="$PROJECT_DIR$/Kit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kit/kit.iml" filepath="$PROJECT_DIR$/kit/kit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjavatextlib/rxjavatextlib.iml" filepath="$PROJECT_DIR$/rxjavatextlib/rxjavatextlib.iml" />
+    </modules>
+  </component>
+</project>

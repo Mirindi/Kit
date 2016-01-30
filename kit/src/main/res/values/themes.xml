@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Kit" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/general_toolbar</item>
+        <item name="colorPrimaryDark">@color/general_toolbar_dark</item>
+        <item name="android:textViewStyle">@style/Kit.TextView</item>
+        <item name="android:buttonStyle">@style/Kit.Button</item>
+        <item name="android:imageButtonStyle">@style/Kit.Button</item>
+        <item name="android:popupWindowStyle">@style/Kit.PopupWindow</item>
+        <item name="android:popupMenuStyle">@style/Kit.PopupMenu</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:radioButtonStyle">@style/Kit.RadioButton</item>
+        <item name="android:editTextStyle">@style/Kit.EditText</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Kit.Home">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Kit.Menu">
+        <item name="colorPrimaryDark">@color/grey_700</item>
+    </style>
+
+    <style name="Kit.PopupWindow" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:background">@drawable/button_primary_general</item>
+
+    </style>
+
+    <style name="Kit.PopupMenu" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:background">@drawable/button_primary_general</item>
+    </style>
+
+    <style name="Kit.Modal" parent="Theme.AppCompat.Light.Dialog">
+        <!-- parent="Theme.AppCompat.Dialog" -->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@drawable/button_primary_general</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlNormal">@color/body_text</item>
+        <item name="colorControlActivated">@color/body_text</item>
+        <item name="colorControlHighlight">@color/color_primary</item>-
+        <item name="actionMenuTextAppearance">@style/Kit.ModalActionBarTextAppearance</item>
+        <item name="android:actionMenuTextAppearance">@style/Kit.ModalActionBarTextAppearance</item>
+        <item name="android:windowAnimationStyle">@style/Kit.Window.Animation</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="toolbarNavigationButtonStyle">@style/Kit.ToolbarNavigationButtonStyle</item>
+
+        <item name="android:textColor">@color/body_text</item>
+    </style>
+
+    <style name="Kit.ToolbarNavigationButtonStyle">
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Kit.Dialog" parent="Kit.Modal">
+        <item name="android:windowAnimationStyle">@style/Kit.Window.Animation</item>
+    </style>
+
+    <style name="Kit.Window.Animation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="Kit.Dialog.Animation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/fade_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_bottom</item>
+    </style>
+
+    <style name="Kit.ModalActionBarTextAppearance">
+        <item name="android:padding">@dimen/md_spacing</item>
+    </style>
+
+    <style name="Kit.Toolbar">
+        <item name="android:textColorPrimary">@color/body_text</item>
+        <item name="android:actionMenuTextColor">@color/general_toolbar</item>
+    </style>
+
+    <style name="Kit.Toolbar.Primary">
+        <item name="android:background">@color/color_primary</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+    </style>
+
+    <style name="Kit.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+
+    </style>
+
+</resources>
