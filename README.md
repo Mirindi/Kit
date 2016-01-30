@@ -23,7 +23,9 @@ TODO: Kit will contain common animations.
 
 ##Element Types
 **General** means unimportant elements. So if the background was off-white, a General Type button would be light grey.
+
 **Primary** means the most important elements. You should reserve theses for call-to-action types only.
+
 **Background** means background elements/colors. So if its a dark theme, background would be a dark grey.
 
 
