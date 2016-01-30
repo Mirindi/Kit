@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+android:insetRight="@dimen/lg_spacing"
+android:insetTop="@dimen/lg_spacing"
+android:insetBottom="@dimen/lg_spacing"
+android:insetLeft="@dimen/lg_spacing" >
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle" >
+
+
+        <solid android:color="@color/background_general">
+
+        </solid>
+        <corners android:radius="@dimen/popup_radius" />
+    </shape>
+</inset>

@@ -35,7 +35,7 @@ public class MainActivity extends ToolbarActivity {
                     public void onClick(DialogInterface dialog, int which) {
 
                     }
-                }).setTitle("Confirm?").show();
+                }).setTitle("Confirm?").setMessage("This is a test dialog").show();
             }
         });
     }

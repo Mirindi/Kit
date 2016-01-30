@@ -28,18 +28,18 @@
     </style>
 
     <style name="Kit.PopupWindow" parent="Widget.AppCompat.PopupMenu.Overflow">
-        <item name="android:background">@drawable/button_primary_general</item>
+        <item name="android:background">@drawable/dialog_bg</item>
 
     </style>
 
     <style name="Kit.PopupMenu" parent="Widget.AppCompat.Light.PopupMenu">
-        <item name="android:background">@drawable/button_primary_general</item>
+        <item name="android:background">@drawable/dialog_bg</item>
     </style>
 
     <style name="Kit.Modal" parent="Theme.AppCompat.Light.Dialog">
         <!-- parent="Theme.AppCompat.Dialog" -->
         <item name="android:background">@android:color/transparent</item>
-        <item name="android:windowBackground">@drawable/button_primary_general</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
         <item name="colorAccent">@color/white</item>
         <item name="colorControlNormal">@color/body_text</item>
         <item name="colorControlActivated">@color/body_text</item>

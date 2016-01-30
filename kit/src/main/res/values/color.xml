@@ -9,9 +9,9 @@
     <color name="primary_stroke">@color/color_primary</color>
     <color name="primary_disabled">@color/color_primary_light</color>
 
-    <color name="color_general">@color/grey_500</color>
-    <color name="color_general_light">@color/grey_400</color>
-    <color name="color_general_dark">@color/grey_600</color>
+    <color name="color_general">@color/grey_400</color>
+    <color name="color_general_light">@color/grey_300</color>
+    <color name="color_general_dark">@color/grey_500</color>
     <color name="general_pressed">@color/color_general_dark</color>
     <color name="general_text">@color/grey_900</color>
     <color name="general_text_disabled">@color/grey_600</color>

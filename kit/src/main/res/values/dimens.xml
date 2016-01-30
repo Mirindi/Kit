@@ -36,6 +36,8 @@
     <dimen name="text_button_padding">6dp</dimen>
     <dimen name="large_button_padding">16dp</dimen>
 
+    <dimen name="button_elevation">2dp</dimen>
+
     <!-- Typography -->
     <dimen name="font_display4">56dp</dimen>
     <dimen name="font_display3">48dp</dimen>
@@ -43,13 +45,14 @@
     <dimen name="font_display1">24dp</dimen>
     <dimen name="font_body">16dp</dimen>
     <dimen name="font_label">16dp</dimen>
+    <dimen name="font_title">20dp</dimen>
     <dimen name="font_caption">13dp</dimen>
 
     <integer name="tooltip_hide_duration">20</integer>
     <dimen name="toolbar_elevation">4dp</dimen>
 
-    <dimen name="rounded_button_radius">2dp</dimen>
+    <dimen name="rounded_button_radius">4dp</dimen>
     <dimen name="pill_button_radius">24dp</dimen>
-    <dimen name="popup_radius">24dp</dimen>
+    <dimen name="popup_radius">8dp</dimen>
 
 </resources>

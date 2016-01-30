@@ -15,7 +15,7 @@ public class MainApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Fontain.init(this, "FuturaLT");
+        Fontain.init(this, "Cabin");
     }
 
 
