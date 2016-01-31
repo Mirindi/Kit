@@ -48,11 +48,12 @@
             android:text="General Round" />
 
         <com.scopely.fontain.views.FontButton
+            android:id="@+id/main_open_animations"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/reg_spacing"
             style="@style/Kit.Button.Pill"
-            android:text="General General Pill" />
+            android:text="Open Animations" />
     </LinearLayout>
 
     <LinearLayout
@@ -77,9 +78,5 @@
             style="@style/Kit.Button.Primary.Pill"
             android:text="Open Multi Fragment" />
     </LinearLayout>
-    <com.scopely.fontain.views.FontEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Edit Text" />
 
 </LinearLayout>

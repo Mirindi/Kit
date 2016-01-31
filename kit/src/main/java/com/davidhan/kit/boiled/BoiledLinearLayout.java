@@ -4,8 +4,6 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
-import com.davidhan.kit.R;
-
 /**
  * name: EzLinearLayout
  * desc:
@@ -33,6 +31,6 @@ public abstract class BoiledLinearLayout extends LinearLayout {
 
     }
     protected void setContentView(int resId) {
-        inflate(getContext(), R.layout.action_item, this);
+        inflate(getContext(), resId, this);
     }
 }

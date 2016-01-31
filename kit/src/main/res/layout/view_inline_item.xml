@@ -2,49 +2,52 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_item_height"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_clickable"
     android:paddingLeft="@dimen/container_padding"
     android:paddingRight="@dimen/container_padding">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/md_spacing"
         android:gravity="center"
         android:orientation="horizontal">
 
         <com.scopely.fontain.views.FontTextView
-            android:id="@+id/title"
+            android:id="@+id/inline_item_title"
             style="@style/Kit.TextView.Label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:text="Settings" />
+            tools:text="Settings" />
 
         <com.scopely.fontain.views.FontTextView
-            android:id="@+id/value"
+            android:id="@+id/inline_item_value"
             style="@style/Kit.TextView.ValueLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
             android:paddingRight="@dimen/md_spacing"
 
-            android:text="Value" />
+            tools:text="Value" />
 
         <ImageView
-            android:id="@+id/chevron"
+            android:id="@+id/inline_item_chevron"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/icon_sm"
-            android:src="@drawable/ic_right_chevron"
             android:layout_alignParentRight="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_right_chevron" />
     </LinearLayout>
     <!-- -->
-    <!--<View-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="1dp"-->
-    <!--android:layout_alignParentBottom="true"-->
-    <!--android:background="@color/grey_400"/>-->
+    <View
+        android:id="@+id/inline_item_bottom_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_400" />
 </LinearLayout>

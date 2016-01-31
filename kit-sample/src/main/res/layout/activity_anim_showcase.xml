@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/container_padding"
+    tools:context="com.davidhan.KitTest.AnimShowcaseActivity">
+
+    <View
+        android:id="@+id/anim_target"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/lg_spacing"
+        android:layout_marginBottom="@dimen/lg_spacing"
+        android:background="@color/color_primary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.davidhan.kit.views.InlineItem
+                android:id="@+id/anim_enter_bot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:show_divider="true"
+                app:title_text="enter from bottom" />
+
+            <com.davidhan.kit.views.InlineItem
+                android:id="@+id/anim_expand_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:show_divider="true"
+                app:title_text="expand out" />
+
+            <com.davidhan.kit.views.InlineItem
+                android:id="@+id/anim_shake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:show_divider="true"
+                app:title_text="shake" />
+
+            <com.davidhan.kit.views.InlineItem
+                android:id="@+id/anim_fade_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:show_divider="true"
+                app:title_text="fade up" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

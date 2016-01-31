@@ -22,8 +22,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SlideDeckTestActvitiy"
-            android:label="@string/title_activity_multi_fragment"></activity>
+        android:name=".SlideDeckTestActvitiy"
+        android:label="Slides"></activity>
+        <activity
+            android:name=".AnimShowcaseActivity"
+            android:label="Animations"></activity>
     </application>
 
 </manifest>

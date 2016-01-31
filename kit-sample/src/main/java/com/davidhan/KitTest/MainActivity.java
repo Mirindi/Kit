@@ -21,6 +21,8 @@ public class MainActivity extends ToolbarActivity {
     Button mPopupButton;
     @Bind(R.id.main_activity_open_multi_button)
     Button mOpenMulti;
+    @Bind(R.id.main_open_animations)
+    Button mOpenAnims;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +46,13 @@ public class MainActivity extends ToolbarActivity {
         mOpenMulti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               startActivity(new Intent(MainActivity.this,SlideDeckTestActvitiy.class));
+               startActivity(new Intent(MainActivity.this, SlideDeckTestActvitiy.class));
+            }
+        });
+        mOpenAnims.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, AnimShowcaseActivity.class));
             }
         });
     }

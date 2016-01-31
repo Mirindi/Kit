@@ -1,7 +1,7 @@
 package com.davidhan.kit.utils;
 
 import android.view.View;
-import android.widget.LinearLayout;
+import android.view.ViewGroup;
 
 /**
  * name: ViewUtils
@@ -21,7 +21,7 @@ public class ViewUtils {
      * @param bottom bottom increment
      */
     public static void addMarginsToLinChild(View view, int left, int top, int right, int bottom) {
-        LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) view.getLayoutParams();
+        ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) view.getLayoutParams();
         params.setMargins(params.leftMargin + left,
                 params.topMargin + top,
                 params.rightMargin + right,
@@ -39,7 +39,7 @@ public class ViewUtils {
      * @param bottom bottom margin
      */
     public static void setMarginsToLinChild(View view, int left, int right, int top, int bottom) {
-        LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) view.getLayoutParams();
+        ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) view.getLayoutParams();
         params.setMargins(left, top, right, bottom);
         view.setLayoutParams(params);
     }

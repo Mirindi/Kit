@@ -61,14 +61,20 @@
         <item name="android:textColor">@color/background_text</item>
 
     </style>
+
     <style name="Kit.TextView.Title">
         <item name="android:textSize">@dimen/font_title</item>
         <item name="font_weight">SEMI_BOLD</item>
-        <item name = "android:padding">@dimen/padding_lg</item>
+        <item name="android:padding">@dimen/padding_lg</item>
 
     </style>
+
     <style name="Kit.EditText" parent="Widget.AppCompat.EditText">
-        <item name="android:drawableBottom">@drawable/edittext_underline</item>
+        <item name="android:background">@drawable/edittext_underline</item>
+        <item name="android:paddingTop">@dimen/padding_lg</item>
+        <item name="android:paddingBottom">@dimen/padding_md</item>
+        <item name="android:paddingLeft">@dimen/padding_reg</item>
+        <item name="android:paddingRight">@dimen/padding_reg</item>
         <item name="android:textAppearance">@style/Kit.TextView</item>
     </style>
 
@@ -91,6 +97,7 @@
         <item name="android:background">@drawable/button_primary_rounded</item>
         <item name="android:textColor">@color/text_primary</item>
     </style>
+
     <style name="Kit.Button.Pill">
         <item name="android:background">@drawable/button_general_pill</item>
         <item name="android:paddingLeft">@dimen/padding_lg</item>
@@ -102,4 +109,8 @@
         <item name="android:paddingLeft">@dimen/padding_lg</item>
         <item name="android:paddingRight">@dimen/padding_lg</item>
     </style>
+
+    <style name="Kit.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Kit.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

@@ -4,9 +4,10 @@
     <declare-styleable name="Header">
         <attr name="header_text" format="string" />
     </declare-styleable>
-    <declare-styleable name="ActionItem">
+    <declare-styleable name="InlineItem">
         <attr name="title_text" format="string" />
         <attr name="value_text" format="string" />
         <attr name="chevron" format="boolean" />
+        <attr name="show_divider" format="boolean" />
     </declare-styleable>
 </resources>

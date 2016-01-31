@@ -5,11 +5,10 @@ import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.davidhan.kit.R;
+import com.davidhan.kit.views.InlineItem;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -76,14 +75,12 @@ public class OptionDialog extends Dialog {
             @Override
             public View getView(final int i, View view, ViewGroup viewGroup) {
                 if (view == null) {
-                    view = getLayoutInflater().inflate(R.layout.action_item, viewGroup, false);
+                    view = new InlineItem(getContext());
                 }
-                TextView mTitle = (TextView) view.findViewById(R.id.title);
-                TextView mValue = (TextView) view.findViewById(R.id.value);
-                ImageView mChevron = (ImageView) view.findViewById(R.id.chevron);
-                mChevron.setVisibility(View.GONE);
-                mTitle.setText(getItem(i).title);
-                mValue.setText(getItem(i).value);
+                InlineItem inlineItem =(InlineItem) view;
+                inlineItem.showChevron(false);
+               inlineItem.setTitle(getItem(i).title);
+               inlineItem.setValue(getItem(i).value);
                 view.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
