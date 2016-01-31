@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="@dimen/container_padding"
+    style="@style/Kit.RootContainer"
     tools:context="com.davidhan.KitTest.AnimShowcaseActivity">
 
     <View

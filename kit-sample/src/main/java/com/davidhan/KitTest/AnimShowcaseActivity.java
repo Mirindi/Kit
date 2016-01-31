@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.davidhan.kit.activities.ToolbarActivity;
+import com.davidhan.kit.utils.AnimUtils;
 import com.davidhan.kit.views.InlineItem;
 
 import butterknife.Bind;
@@ -45,7 +46,7 @@ public class AnimShowcaseActivity extends ToolbarActivity implements View.OnClic
 
         }
         if(v == animFadeUp){
-
+            animTarget.startAnimation(AnimUtils.getAnim(this,R.anim.fade_up_enter));
         }
     }
 }

@@ -10,6 +10,7 @@
         <item name="android:imageButtonStyle">@style/Kit.Button</item>
         <item name="android:popupWindowStyle">@style/Kit.PopupWindow</item>
         <item name="android:popupMenuStyle">@style/Kit.PopupMenu</item>
+        <item name = "android:dialogTheme">@style/Kit.Dialog</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:radioButtonStyle">@style/Kit.RadioButton</item>
@@ -59,17 +60,18 @@
     </style>
 
     <style name="Kit.Dialog" parent="Kit.Modal">
-        <item name="android:windowAnimationStyle">@style/Kit.Window.Animation</item>
+        <item name="android:windowAnimationStyle">@style/Kit.Dialog.Animation</item>
     </style>
 
     <style name="Kit.Window.Animation" parent="@android:style/Animation.Activity">
-        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
-        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+        <item name="android:windowEnterAnimation">@anim/fade_up_enter</item>
+        <item name="android:windowExitAnimation">@anim/fade_down_exit</item>
     </style>
 
     <style name="Kit.Dialog.Animation" parent="@android:style/Animation.Activity">
-        <item name="android:windowEnterAnimation">@anim/fade_in_bottom</item>
-        <item name="android:windowExitAnimation">@anim/fade_out_bottom</item>
+        <item name="android:windowEnterAnimation">@anim/grow_enter</item>
+        <item name="android:windowExitAnimation">@anim/fade_down_exit</item>
+
     </style>
 
     <style name="Kit.ModalActionBarTextAppearance">

@@ -9,7 +9,7 @@
     <color name="primary_stroke">@color/color_primary</color>
     <color name="primary_disabled">@color/color_primary_light</color>
 
-    <color name="color_general">@color/grey_400</color>
+    <color name="color_general">@color/grey_400</color>s
     <color name="color_general_light">@color/grey_300</color>
     <color name="color_general_dark">@color/grey_500</color>
     <color name="general_pressed">@color/color_general_dark</color>
@@ -20,7 +20,7 @@
 
     <color name="background_general">@color/grey_100</color>
     <color name="background_general_light">@color/grey_200</color>
-    <color name="background_general_dark">@color/grey_200</color>
+    <color name="background_general_dark">@color/grey_300</color>
     <color name="background_general_pressed">@color/background_general_dark</color>
 
     <color name="divider">@color/grey_400</color>
