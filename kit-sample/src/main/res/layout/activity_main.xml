@@ -44,6 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/reg_spacing"
+            style="@style/Kit.Button"
             android:text="General Round" />
 
         <com.scopely.fontain.views.FontButton
@@ -66,14 +67,15 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/reg_spacing"
             style="@style/Kit.Button.Primary"
-            android:text="General Round" />
+            android:text="Test Dialog" />
 
         <com.scopely.fontain.views.FontButton
+            android:id="@+id/main_activity_open_multi_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/reg_spacing"
             style="@style/Kit.Button.Primary.Pill"
-            android:text="General General Pill" />
+            android:text="Open Multi Fragment" />
     </LinearLayout>
     <com.scopely.fontain.views.FontEditText
         android:layout_width="match_parent"

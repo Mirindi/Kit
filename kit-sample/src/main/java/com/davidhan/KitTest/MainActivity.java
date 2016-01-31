@@ -1,6 +1,7 @@
 package com.davidhan.KitTest;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,6 +19,8 @@ import butterknife.ButterKnife;
 public class MainActivity extends ToolbarActivity {
     @Bind(R.id.popup_button)
     Button mPopupButton;
+    @Bind(R.id.main_activity_open_multi_button)
+    Button mOpenMulti;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +39,12 @@ public class MainActivity extends ToolbarActivity {
 
                     }
                 }).setTitle("Confirm?").setMessage("This is a test dialog").show();
+            }
+        });
+        mOpenMulti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               startActivity(new Intent(MainActivity.this,SlideDeckTestActvitiy.class));
             }
         });
     }

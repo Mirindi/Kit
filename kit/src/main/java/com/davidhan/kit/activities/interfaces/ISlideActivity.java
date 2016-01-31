@@ -9,8 +9,14 @@ import android.support.v7.widget.Toolbar;
  * author: David
  * Copyright (c) 2015 David Han
  */
-public interface IMultifragmentActivity {
+public interface ISlideActivity {
     Toolbar getToolbar();
 
-    void showBackButton(boolean visible);
+    void enableBackArrow(boolean visible);
+    void goForwards();
+    void goBackwards();
+    void goToFirst();
+    void goToLast();
+
+    void skipToScreen(int index);
 }

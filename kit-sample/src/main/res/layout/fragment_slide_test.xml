@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Kit.RootContainer">
+    <com.scopely.fontain.views.FontTextView
+        android:id="@+id/slide_test_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/container_padding"
+        android:text="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/reg_spacing">
+
+        <com.scopely.fontain.views.FontButton
+            android:id="@+id/slide_test_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/reg_spacing"
+            style="@style/Kit.Button.Primary"
+            android:text="Back" />
+
+        <com.scopely.fontain.views.FontButton
+            android:id="@+id/slide_test_to_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/reg_spacing"
+            style="@style/Kit.Button"
+            android:text="Open Multi Fragment" />
+        <com.scopely.fontain.views.FontButton
+            android:id="@+id/slide_test_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/reg_spacing"
+            style="@style/Kit.Button.Primary"
+            android:text="Next" />
+    </LinearLayout>
+</LinearLayout>

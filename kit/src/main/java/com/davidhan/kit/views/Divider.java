@@ -1,10 +1,10 @@
 package com.davidhan.kit.views;
 
 import android.content.Context;
+import android.support.v4.content.ContextCompat;
 
 import com.davidhan.kit.R;
 import com.davidhan.kit.boiled.BoiledView;
-import com.davidhan.kit.utils.AndroidUtils;
 
 /**
  * name: Divider
@@ -20,6 +20,6 @@ public class Divider extends BoiledView {
 
     @Override
     protected void init() {
-        setBackground(AndroidUtils.getDrawable(getContext(), R.drawable.list_divider));
+        setBackground(ContextCompat.getDrawable(getContext(), R.drawable.list_divider));
     }
 }

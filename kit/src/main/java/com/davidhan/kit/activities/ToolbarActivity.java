@@ -17,7 +17,7 @@ import com.davidhan.kit.R;
  * author: David
  */
 public class ToolbarActivity extends AppCompatActivity {
-    protected Toolbar toolbar;
+    private Toolbar toolbar;
     protected TextView toolbarTitle;
     protected ViewGroup mActivityContentHolder;
     protected ViewGroup mActivityContent;
@@ -49,6 +49,10 @@ public class ToolbarActivity extends AppCompatActivity {
 
     public Toolbar getToolbar() {
         return toolbar;
+    }
+
+    public void setToolbar(Toolbar toolbar) {
+        this.toolbar = toolbar;
     }
 
     protected void initLayout() {

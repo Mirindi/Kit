@@ -1,8 +1,7 @@
 package com.davidhan.kit.utils;
 
-import android.content.Context;
-import android.graphics.drawable.Drawable;
-import android.support.v4.content.ContextCompat;
+import android.content.res.Resources;
+import android.util.DisplayMetrics;
 
 /**
  * name: AndroidUtils
@@ -12,7 +11,9 @@ import android.support.v4.content.ContextCompat;
  * Copyright (c) 2015 David Han
  */
 public class AndroidUtils {
-    public static Drawable getDrawable(Context context, int id) {
-        return ContextCompat.getDrawable(context, id);
+    public static int dpToPx(float dp){
+        DisplayMetrics metrics = Resources.getSystem().getDisplayMetrics();
+        float px = dp * (metrics.densityDpi / 160f);
+        return Math.round(px);
     }
 }
